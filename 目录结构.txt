@@ -1,0 +1,11 @@
+路径 -> editvue                            描述:vue编辑位置  (区分wap和pc)
+
+路径 -> application/common_path.php        描述:自定义的配置文件
+
+路径 -> editvue\Common                     描述:此目录基本不用动
+
+路径 -> editvue\(Mobile/ PC)\components    描述:vue的头部js和头部模板
+
+路径 -> editvue\(Mobile/ PC)\lib           描述:vue的配置,路由,api,需要自定义的配置 等等.
+
+路径 -> editvue\(Mobile/ PC)\views         描述:vue的js和模板.

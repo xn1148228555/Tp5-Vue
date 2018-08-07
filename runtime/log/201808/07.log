@@ -1,0 +1,627 @@
+---------------------------------------------------------------
+[ 2018-08-07T15:19:15+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.241014s][吞吐率：4.15req/s] [内存消耗：1,276.22kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:19:49+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,276.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:21:32+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,276.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:30:23+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,276.67kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:30:26+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:30:30+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php
+[ info ] localhost/Tp5-Vue/public/index.php [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:30:43+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:30:45+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:07+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,276.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\Mobile\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:09+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,276.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\Mobile\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:14+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\Mobile\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:14+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,276.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\Mobile\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:15+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,276.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\Mobile\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:17+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:17+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:18+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:31:18+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/
+[ info ] localhost/Tp5-Vue/public/ [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,276.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Tp5-Vue\public/../application/index\view\PC\home.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:48:20+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php/index/index/getResponseType
+[ info ] localhost/Tp5-Vue/public/index.php/index/index/getResponseType [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,281.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getResponseType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getResponseType[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T15:48:24+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php/index/index/getResponseType
+[ info ] localhost/Tp5-Vue/public/index.php/index/index/getResponseType [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,281.15kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getResponseType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getResponseType[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T18:19:55+08:00 ] 0.0.0.0 GET /Tp5-Vue/public/index.php/index/index/getResponseType
+[ info ] localhost/Tp5-Vue/public/index.php/index/index/getResponseType [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,281.20kb] [文件加载：42]
+[ info ] [ LANG ] D:\www\Tp5-Vue\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getResponseType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0o0pd0vp0s63o5tu2tlk8vgaf2; _ccfivd=1533626401019; customer_access_token=bearer dc487d399a1011e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getResponseType[ D:\www\Tp5-Vue\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

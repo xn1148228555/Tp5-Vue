@@ -1,0 +1,538 @@
+@charset "utf-8";
+/*3D区域*/
+.carsFlash{position: fixed;top:95px;left:0;width:100%;background:#fff url(../images/3dBg.png) no-repeat center bottom;}
+.carFlashWrap {display: none; position: fixed; top: 95px; left: 34%; width: 820px; height: 330px;}
+.carsFlash .carsPic,.carFlashWrap .carsPic{width:100%;height:100%;}
+.switchBtn{position: absolute;left:8%;bottom:50px;width: 50px;height:50px;background: url(../images/arrow2.png) no-repeat;}
+
+/*按钮*/
+.btn{
+	display: inline-block;width:120px;height:40px;background: #2371bb;color:#fff;text-align: center;line-height: 40px;font-size:18px;border-radius:5px;
+}
+/*文字溢出显示省略号*/
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal;}
+
+/*右侧箭头icon*/
+.car-tag{
+	display: inline-block;height:22px;line-height:22px;min-width:50px;text-indent:5px;color:#fff;background: #7cafe0;position: relative;
+}
+.car-tag:after{
+	content:"";display: block;width:12px;height:22px;background: url(../images/carTagBg.png) no-repeat;position: absolute;right:-12px;top:0;
+}
+
+
+/*操作说明按钮*/
+.tip-wrap {width:100%; color: #383838;text-align: right; box-sizing: border-box;cursor: pointer;}
+.tip-wrap .tip-icon {display: inline-block; width:18px; height:18px; margin-right:10px; 
+    background: url(../images/tipIcon.png) no-repeat center center;background-size: 18px auto; vertical-align: -4px;}
+
+/*删除按钮*/
+.delIcon{
+	position: absolute;top:-10px;right:-10px;width:22px;height:22px;padding:2px;background: #fff url(../images/close.png) no-repeat center center;border-radius: 50%;z-index:100;box-sizing:border-box;display: none;
+}
+
+
+/*呼吸灯*/
+.waveIcon{
+	position: absolute;top:50px;right:50px;width:60px;height:60px;z-index: 100; background: url(../images/point.png) no-repeat;cursor: pointer;
+	animation: fadeBigSmall 1s ease infinite alternate;
+	-webkit-animation: fadeBigSmall 1s ease infinite alternate;
+	-moz-animation: fadeBigSmall 1s ease infinite alternate;
+	-o-animation: fadeBigSmall 1s ease infinite alternate;
+	-ms-animation: fadeBigSmall 1s ease infinite alternate;
+}
+@keyframes fadeBigSmall {
+	0% { transform: scale(1); opacity: .6;}
+	100% { transform: scale(1.1); opacity: 1;}
+}
+@-webkit-keyframes fadeBigSmall {
+	0% { -webkit-transform: scale(1); opacity: .6;}
+	100% { -webkit-transform: scale(1.1); opacity: 1;}
+}
+/*单选按钮*/
+.radio-label span{display: inline-block;}
+.radio-label .radioIcon{width:16px;height:16px;background: url(../images/radioIcon.png) no-repeat center bottom;background-size:16px auto;margin-right:8px;vertical-align:top;}
+.radio-label .radioIcon.checked{background: url(../images/radioIcon.png) no-repeat center top;background-size: 16px auto;}
+.radio-label.non-optional .radioIcon{opacity: 0.3;}
+
+/*复选框选按钮*/
+.check-label span{display: inline-block;}
+.check-label .checkIcon{width:18px;height:18px;background: url(../images/checkIcon.png) no-repeat center bottom;background-size:18px auto;vertical-align:middle;}
+.check-label .checkIcon.checked{background-position:center top;}
+.check-label .check-option {color: #2371bb;}
+
+/*外观内饰切换*/
+.switch-WGNS{position: absolute;top:10px;left:10px;width:100px;height:24px;line-height:24px;border: 1px solid #979797;border-radius:20px;background: #fff;
+}
+.switch-WGNS a{float: left;width: 50%;height:24px;text-align: center;color: #1b1a1f;font-size:12px;border-top-left-radius:20px;border-bottom-left-radius:20px;border-top-right-radius:0px;border-bottom-right-radius:0px;box-sizing:border-box;
+}
+.switch-WGNS a:first-child{border-right:1px solid #979797;}
+.switch-WGNS a:last-child{border-top-left-radius:0px;border-bottom-left-radius:0px;border-top-right-radius:20px;border-bottom-right-radius:20px;}
+.switch-WGNS a.active{
+    background: #2371bb;color: #fff;
+}
+/*头部标题*/
+.carDetaisWrap {position: relative;}
+.smartCustom-title{
+	line-height:36px;font-size:24px;font-family: "HYQHB";text-align: center;padding-top:20px;
+}
+.smartCustom-title-sub{
+font-size:14px;line-height:26px;text-align: center;margin-bottom:20px;
+}
+.compare__back{
+	position: absolute;top:20px;left:5px;padding-left: 28px;background: url(../images/backIcon.png) no-repeat left center;line-height:36px;font-size: 18px;font-family: "HYQHB";
+}
+
+/*选配车*/
+.configCar-parts {width: 100%; height: 100%;}
+.configCar-parts .config-left {float:left; width: 7.5%; height: 100%; z-index: 1;}
+.configCar-parts .config-left__inner {position: relative; width: 90%; height: 100%; background-color: #e6e6e6;}
+.configCar-parts .config-inner__ul {position: absolute;left: 0;top: 50%;margin-top: -134px;width: 100%;height: 268px;}
+.configCar-parts .config-inner__ul li {padding:20px 0; position: relative; color: #1a1a1a; font-size: 18px; text-align: center; font-family: "HYQHB";cursor: pointer;}
+.configCar-parts .config-inner__ul li.active {color: #2371bb;}
+.configCar-parts .config-inner__ul li.active:after {position:absolute; top:24px; right:-20px; content:""; width: 0; height: 0;font-size:0; font-weight:normal;border:10px solid rgba(0,0,0,0); border-left-color:#e6e6e6;}
+.configCar-parts .config-right {float:left; position: relative; width: 92.5%; height: 100%;}
+.configCar-parts .config-right__inner {width: 1130px; margin: 0 auto; height: 100%; /*padding: 92px 0 60px 0; */box-sizing: border-box;}
+.configCar-parts .config__group {position: absolute; display: none; top: 50%; left: 50%; width: 1130px; height: 410px; margin: -205px 0 0 -565px;}
+.configCar-parts .basic__group {}
+.configCar-parts .equip__group {height: 520px; margin-top: -260px;}
+.configCar-parts .config__family-wrap {width: 100%; margin-bottom: 20px; border-bottom: 1px solid #b3b3b3;}
+.configCar-parts .config__family {margin: 0 auto; width: 534px;}
+.configCar-parts .config__family li {float:left; padding: 20px 25px; color: #808080; font-size: 32px; font-family: "HYQHB";cursor: pointer;}
+.configCar-parts .config__family li.active {color: #1a1a1a; position: relative;}
+.configCar-parts .config__family li.active:after {position:absolute; top:68px; left: 79px; content:""; width: 0; height: 0;font-size:0; font-weight:normal;border:10px solid rgba(0,0,0,0); border-bottom-color:#b3b3b3;}
+.configCar-parts .config__family-item {display: none; position: relative;}
+.configCar-parts .family__swiper {width: 1036px; height: 410px; margin: 0 auto;}
+.configCar-parts .config__family-son {border: 1px solid #e6e6e6; width: 330px; margin-right: 20px;}
+.configCar-parts .config__family-son.active {border: 1px solid #2472bc;}
+.configCar-parts .config__feature-img {width: 330px; height: 184px;}
+.configCar-parts .config__feature-img img {display: block; width: 330px; height: 184px;}
+.configCar-parts .config__feature-des {width: 100%; padding: 12px 12px 0; height: 220px; box-sizing: border-box;}
+.configCar-parts .config__feature-title {margin-bottom:10px; color: #1a1a1a; font-size: 16px; font-family: "HYQHB";}
+.configCar-parts .config__feature-title span {display: inline-block; width: 275px; vertical-align: middle;}
+.configCar-parts .config__feature-subtitle {margin-bottom:20px; font-size: 14px; color: #1a1a1a;}
+.configCar-parts .config__feature-txt{display: block; margin-bottom: 5px; }
+.configCar-parts .config__feature-price {display: inline-block; min-width: 70px; font-family: "微软雅黑";font-weight:bold;}
+.configCar-parts .feature__tag {display: inline-block; padding: 0 12px; height: 26px; line-height: 26px;border:1px solid #2371bb; color: #2371bb; text-align: center; border-radius: 5px; box-sizing: border-box;}
+.configCar-parts .tip-icon {cursor: pointer;float:right; width:18px;height:18px; margin:4px 5px 0 0; background: url(../images/tipIcon.png) no-repeat;background-size: 18px auto;}
+.config__feature-list {width: 306px; height: 90px;}
+.config__feature-ul li {float:left; position: relative; margin: 0 6px 20px 0; width: 74px; height: 74px;cursor: pointer;}
+.config__feature-ul li.active {background-color: #dadfe5; border-radius: 50%;}
+.config__feature-ul img {display: block; width: 50px; height: 50px; margin: 12px auto;border-radius: 50%; background-color: #fff; box-shadow: 0 0 15px rgba(123,123,123,0.5);}
+.config__feature-ul img.no-shadow {background-color: none; box-shadow: none;}
+.config__feature-ul li i.disabled {display: block; position: absolute; top: 12px; left: 12px; width:50px; height:50px; background: url(../images/forbidIcon.png) no-repeat center center;}
+.configCar-parts .config__family-son .config__feature-list{height: 100px;}
+.configCar-parts .family__prev, .configCar-parts .family__next {position: absolute;left:0;top:50%; margin-top:-16px; width:32px;height:32px;background: url(../images/arrowsIcon.png) no-repeat 0 0;cursor: pointer;}
+.configCar-parts .family__next{right:0; left: auto; background-position: -68px 0;}
+/*.configCar-parts .equip__group .family__prev, .configCar-parts .equip__group .family__next {margin-top: -70px;}*/
+.configCar-parts .family__prev.disabled {background-position: 0 -68px;}
+.configCar-parts .family__next.disabled {background-position: -68px -68px;}
+.configCar-parts .interior__group {width: 100%; height:100%; margin: 0; left: 0; top: 0; box-sizing: border-box;}
+.configCar-parts .config__family-list {position: relative; float: left; height: 100%; padding: 0 8px; width: 230px; box-sizing: border-box;}
+.configCar-parts .config__family-ul {position: absolute;top: 50%;left: 8px;margin-top: -228px;height: 456px;}
+.configCar-parts .config__family-ul li {padding:8px 12px; max-width: 214px; margin-bottom: 5px; color: #808080; font-size: 16px; font-family: "HYQHB";box-sizing: border-box;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;cursor: pointer;}
+.configCar-parts .config__family-ul li span {display: inline-block;}
+.configCar-parts .config__family-ul li.active span {color: #1a1a1a; font-size: 18px; border-bottom: 1px solid #5a5a5a;}
+.configCar-parts .config__family-right {float: left; width: 85%; height:100%;}
+.configCar-parts .config__family-con {margin: 0 auto; width: 820px; position: fixed; top: 450px; left: 34%; text-align: center;}
+.configCar-parts .config__family__des {margin-bottom:20px; color: #1a1a1a; font-size: 14px;}
+.configCar-parts .config__family__des span {display: inline-block; float: none; vertical-align: middle; margin-right: 20px; color: #1a1a1a; font-size: 14px;font-weight: bold; font-family: "微软雅黑";}
+.configCar-parts .config__family__des span.feature__tag {color: #2371bb;}
+.configCar-parts .config__family__des span.config__family__des-price {margin-right: 25px;}
+.configCar-parts .config__family__des span.tip-icon {margin: 0 35px 0 0;}
+.configCar-parts .interior__group .config__feature-list {width: 800px; margin: 0 auto;}
+.white {border:1px solid #e7e7e7; box-sizing: border-box;border-radius: 50%;}
+.icon360 {position: absolute; right: 20px; top: 16px; width: 40px; height: 22px; background: url(../images/icon360.png);}
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+	.configCar-parts .config__feature-des {height:200px;}
+	.configCar-parts .config__family-son .config__feature-list {height:82px;}
+	.configCar-parts .configCar-parts .basic__group  {height: 390px; margin-top: -195px;}
+	.configCar-parts .family__swiper {height: 390px;}
+	.configCar-parts .equip__group {height: 490px; margin-top: -245px;}
+	.configCar-parts .config__family-wrap {margin-bottom: 10px;}
+}
+
+/*确认配置部分*/
+.confirmConfig-partsCont{width:1180px;margin-top:20px;}
+.confirmConfig-parts,.carDetails-parts{width:1180px;margin:0 auto;}
+.parameterWrapL{float: left;width:550px;/*margin-top: 36px;*/}
+.parameterWrapR{float: right;width:568px;}
+.look-same-car{
+	margin:376px auto 0;text-align: center;
+}
+.look-same-car a{display: inline-block;vertical-align: middle;color:#2371bb;line-height: 1em;border-bottom: 1px solid #2371bb;}
+.look-same-car .search-icon{
+	display: inline-block;vertical-align: middle;width:17px;height:17px;background: url(../images/search.png) no-repeat;margin-right:5px;
+}
+.parameterWrap-title{
+	height:36px;line-height:36px;color:#2371bb;font-family: "HYQHB";
+}
+.parameterWrap-title a{color:#2371bb;font-family: "HYQH";}
+.parameterWrap{height:350px;}
+.parameter-list{margin-bottom:2px;cursor: pointer;}
+.parameter-title{height:45px;line-height:45px;background: #f2f2f2;font-size:16px;color:#000;font-family:"HYQHB";padding-left:15px;box-sizing:border-box;}
+.parameter-title span{display: inline-block;vertical-align: middle;}
+.foldIcon{display: inline-block;vertical-align: middle;width:20px;height:20px;background: url(../images/foldIcon.png) no-repeat center top;background-size:20px auto;margin-right:10px;}
+.unfoldIcon{background-position: center bottom;}
+.parameter-details{
+	background: #fff;padding:10px 20px;line-height:36px;display: none;
+}
+.parameter-details li{
+	border-bottom: 1px solid #e5e5e5;
+}
+.parameter-details li:last-child{border:0;}
+.parameter-details label,.parameter-details span, .parameter-edit {display: inline-block; vertical-align: middle;}
+.parameter-details label{
+	width:215px;margin-right:20px;padding-left: 20px;
+}
+.parameter-details span {width:200px;margin-right: 10px;}
+.parameter-edit {width:20px; height:20px; background: url(../images/editIcon.png) no-repeat center center;  text-indent: -9999px;}
+.carTypeImgParts{width:1400px;position: relative;}
+.carTypeImg{
+	width:1400px;margin:0 auto;
+}
+.carTypeImg img{display: block;}
+.carTypeImgParts video{position: absolute;top: 913px;left: 50%;margin-left: -652px;width: 1305px;
+    height: 726px;z-index: 999;
+}
+
+
+/*车型对比部分*/
+.compare-parts{width:1180px;margin:0 auto;}
+.compareWrap{
+	width:100%;height:215px;margin-top:20px;/*border-top:1px solid #000;*/
+}
+.compareInner{
+	width:100%;height:215px;box-sizing:border-box;background-color: #fff;color:#666;
+}
+.compareInner .compare{width:196px;height:215px;background:#f8f8f8;border:1px solid #d4d4d4;text-align: center;border-bottom: 0;border-top: 0;box-sizing:border-box;}
+.compareInner .compare .check-label{display: block;margin-top: 80px;}
+.compareInner .compare .check-option{display: block;margin-top:8px;}
+.compareInner .compareCar{width:245px;height:215px;border-right:1px solid #d4d4d4;;position: relative;}
+.compareCar .carImg{
+width:190px;height:107px;display: table;margin:25px 27px 6px;
+}
+.compareCar .carImg a{
+	display: table-cell;vertical-align: middle;
+}
+.compareCar .carImg img{
+	display: block;max-width:190px;max-height:107px;margin:0 auto;
+}
+.compareCar p{font-size: 14px;line-height:22px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;word-wrap:normal;text-align: center; font-family: "微软雅黑";}
+.compareCar .delIcon{top:10px;right:10px;display: block;}
+.compareCar .car-tag{position: absolute;top:13px;left:0;}
+.compareCar .addCar{
+	display: block;background: url(../images/addIcon.png) no-repeat center top;text-align: center;padding-top:60px;font-size: 18px;color:#666;font-family: "HYQHB";margin-top:66px;
+}
+.compareCar .compareCar--arrow a{
+	width:22px;height:22px; background: url(../images/arrowIcon.png) no-repeat;
+}
+.compareCar .compareCar--arrow a.arrow__left{background-position: 0 0;}
+.compareCar .compareCar--arrow a.arrow__left.active,.compareCar .compareCar--arrow a.arrow__left:hover{background-position: 0 bottom;}
+.compareCar .compareCar--arrow a.arrow__right{background-position: right 0;}
+.compareCar .compareCar--arrow a.arrow__right.active,.compareCar .compareCar--arrow a.arrow__right:hover{background-position: right bottom;}
+.informationTable,.informationTable table{
+	width:100%;
+}
+.informationTable th{border-top:0;}
+.informationTable{box-sizing:border-box;width:1180px;}
+.informationTable th,.informationTable td{border:1px solid #d4d4d4;padding:10px 15px;}
+.informationTable th{background-color: #f2f2f2;padding-left: 35px;}
+.informationTable td{width: 246px; text-align:center; box-sizing: border-box;}
+.informationTable tr:nth-of-type(2n+1){background:#f2f2f2;}
+.informationTable tr td:first-child{width: 196px;color:#2371bb;}
+.nav_compare{
+	position: fixed;top:0;left:50%;width:1180px;height:105px;margin-left:-590px;z-index: 1000;
+}
+.compareInner.nav_compare .compare{height:105px;}
+.compareInner.nav_compare .compare .check-label{margin-top:27px;}
+.compareInner.nav_compare .compareCar{height:105px;}
+.compareInner.nav_compare .compareCar .carImg{display: none;}
+.compareInner.nav_compare .compareCar p.carName{padding-top:40px;}
+.compareInner.nav_compare .compareCar .addCar{
+margin-top: 9px;
+}
+.compare-parts table{/*table-layout: fixed;*/word-wrap: break-word; word-break: break-all;}
+
+/*20180319修改为可多款车对比*/
+.compare-parts td,.compare-parts th{border:1px solid #d4d4d4;}
+/*.compareTable tr:nth-of-type(2n+1){background:#f2f2f2;}*/
+.compare-parts tr:first-child{background: #fff;}
+.compare-parts tr:not(.compet) td,.compare-parts tr:not(.compet) th{padding:10px 15px;box-sizing:border-box;text-align: center;}
+.compare-parts tr:not(.compet) th{background: #f2f2f2;padding-left: 35px;text-align: left;font-family: "HYQHB";}
+.compare-parts tr:not(.compet) td:first-child{color:#2371bb;font-weight:bold}
+.compare-parts .compare {
+	width:196px;height:215px;background:#f8f8f8;text-align: center;border-bottom: 0;border-top: 0;box-sizing:border-box;
+}
+.compare-parts tr:not(.compet) td div{height:42px;display:table-cell;vertical-align: middle;}
+.compare-parts .compare .check-label{display: block;margin-top: 80px;}
+.compare-parts .compare .check-option{display: block;margin-top:8px;}
+.compare-parts .compareCar{width:245px;height:215px;position: relative;padding:6px;box-sizing:border-box;}
+.topTable{
+	position: fixed;top:0px;left:162px;overflow: hidden;background: #fff;display: none;z-index: 102;
+}
+.topTable .compare,.topTable .compareCar,.commonTable .compare{height: 125px;}
+.topTable .compare .check-label,.commonTable .compare .check-label{margin-top:27px;}
+.topTable .compareCar p.carName,.commonTable .compareCar p.carName{padding-top:46px;}
+.topTable .compareCar .addCar{margin-top: 9px;}
+.leftTable{
+	position: fixed;top:13.5px;left:0px;width:173px;background: #fff;display: none;z-index: 101;
+}
+.commonTable{
+    position: fixed;top:0px;left:0px;width:173px;background: #fff;height: 320px;display: none;z-index: 102;
+}
+.leftTable {width:197px;}
+.commonTable {width:197px; height: 105px;}
+.compareTable tr:last-child td,.compareTable tr:last-child th{border-bottom:0;border-right: 0;border-left: 0;}
+.chooseCarBtn{display: inline-block;width: 108px;height:34px;line-height:34px;border-radius:5px;background: #2371bb;
+    font-size: 14px;margin-left: 10px;color:#fff;cursor: pointer}
+
+
+/*现车推荐列表*/
+.current__inner {width: 1020px; height: 466px; position: absolute; top: 50%; left: 50%; margin: -233px 0 0 -510px;}
+.list__title-wrap {position: relative;text-align: center;}
+.list__title {display: inline-block; vertical-align: middle; margin: 0 20px 20px 0;color: #666; font-size: 24px; font-family: HYQHB;text-align: center;}
+.rec__positioning {display: inline-block; vertical-align: middle; margin-bottom: 20px; color: #2371bb; font-size: 14px;font-family: HYQHB; text-align: center;}
+.rec__positioning span {display: inline-block; margin-right: 8px; vertical-align: middle;}
+.rec__positioning-icon {width:14px; height:18px; background: url(../images/positioningIcon.png) no-repeat;}
+.group__arrow {display: inline-block; width: 14px; height: 9px; background: url(../images/arowsIcon.png) no-repeat 0 -17px; vertical-align: middle;}
+.group__arrow--active {background-position: 0 0;}
+.list__con {float: left; margin: 0 25px; position: relative;}
+.list__con .list__con-item {width: 290px; height: 412px; padding: 25px 10px 10px; background-color: #f7f7f7; box-sizing: border-box; text-align: center;}
+.list__con .list__con-item.active {border: 1px solid #2472bc;}
+.list__con .cur__tel {width: 106px; margin: 0 auto 10px auto; height: 24px; line-height: 24px; color: #fff; background-color: #78aad9; font-size: 14px; text-align: center; border-radius: 5px; font-family: HYQHB; -webkit-tap-highlight-color:rgba(255,255,255,0);}
+.list__con .cur__tel-icon400 {display: inline-block; width: 25px; height: 21px; margin-left: 5px; background: url(../images/telIcon.png) no-repeat; vertical-align: middle;}
+.list__con .rec__carwrap {margin: 0 auto 5px auto; width: 256px; height: 143px; position: relative;}
+.list__con .rec__carimg {display: block; position: absolute;left: 0;top: 0;z-index: 30;right: 0;bottom: 0;margin: auto; max-width: 256px; max-height: 143px;}
+.list__con .list__con-title {margin-bottom: 5px; color: #303030; font-size: 18px;font-family: HYQHB;}
+.list__con .list__con-price {display: block; margin-bottom: 10px; color: #666; font-family: "微软雅黑";}
+.list__con .list__con-btn-wrap {position: absolute; left: 70px; bottom: 12px;}
+.list__con .list__con-btn {display: block; margin: 0 auto 10px auto; width: 150px; height: 36px; line-height: 34px; border: 1px solid #2371bb; color: #2371bb; border-radius: 5px; box-sizing: border-box; text-align: center;font-family: HYQHB;}
+.list__con .list__con-btn:last-child {margin-bottom: 0;}
+.list__con .list__con-btn.active {background-color: #2371bb; color: #fff;}
+/*现车销售*/
+.current__inner .list__con {margin:0 20px;}
+.current__inner .cur__con {width: 820px; height: 322px; margin: 50px auto 0 auto;}
+.current__inner .cur__left {float:left;width: 335px; height: 322px; padding: 20px 0; margin-right: 30px; background-color: #eceff3;box-sizing: border-box;}
+.current__inner .cur__right {float:left;height:380px;width: 452px;}
+.current__inner .cur__choose-item {width: 240px; height: 40px; line-height: 40px; margin: 0 auto 10px auto; border: 1px solid #324e69; background-color: #fff; text-align: center;}
+.current__inner .cur__position-icon {display: inline-block; width:19px; height:24px; margin-right: 20px; background: url(../images/positionIcon.png) no-repeat; vertical-align: middle;}
+.current__inner .cur__choose {display: inline-block; padding-right: 30px; width: 180px; background: url(../images/arrow3.png) no-repeat right center; color: #2d4257; font-size: 18px; vertical-align: middle; box-sizing: border-box; appearance:none; -webkit-appearance:none; -moz-appearance:none; border: none; -ms-appearance:none; border: none; -o-appearance:none; border: none; font-family: HYQHB; }
+.current__inner .map-bg {display: block; width: 251px; margin: 20px auto 0 auto; height: 164px;}
+.current__inner .cur__config {width: 422px;position: relative;}
+.current__inner .cur__config-select {width: 422px; padding: 15px; border: none; border-bottom: 1px solid #d8d8d8; color: #333; font-size: 18px; background: url(../images/arrow4.png) no-repeat 97.6% center; appearance:none; -webkit-appearance:none; -moz-appearance:none; font-family: HYQHB;}
+.current__inner .cur__config-select.active {color: #246cb6; background-image: url(../images/arrow5.png);}
+.current__inner .more-btn {display: inline-block; position: absolute; right: 40px; top: 5px; color: #2371bb; font-size: 14px; font-family: HYQHB;}
+/*.current__inner .cur__config li {margin-top: 13px; padding: 15px; border-bottom: 1px solid #d9d9d9;}
+.current__inner .cur__config li:first-child {margin-top:0;}
+.current__inner .cur__config li select {width: 422px; color: #333; font-size: 18px; background: url(../images/arrow4.png) no-repeat right center; appearance:none; -webkit-appearance:none; -moz-appearance:none; border: none; font-family: HYQHB;}
+.current__inner .more-btn {display: inline-block; position: absolute; right: 40px; top: 5px; color: #2371bb; font-size: 14px; font-family: HYQHB;}*/
+
+/*现车销售修改*/
+.current__inner .cur__config-title{color: #333; font-size: 18px;padding: 15px; border-bottom: 1px solid #d8d8d8; font-family: "HYQHB";background: #fff;position: relative;cursor: pointer;}
+.current__inner .cur__config-title.active{color:#246cb6;}
+.current__inner .downArrow{
+position: absolute;right:10px;top:22px;width:26px;height:15px;background: url(../images/arrow4.png) no-repeat;
+}
+.current__inner .upArrow{
+	background: url(../images/arrow5.png) no-repeat;
+}
+.current__inner .cur__config-details{height:200px;width:100%;background: #fafafa;border-bottom: 1px solid #d8d8d8;display: none;}
+.current__inner .cur__config-name{padding-top:12px;text-align: center;line-height: 30px;font-size: 16px;font-family: HYQHB;}
+.current__inner .cur__config-subName{
+	padding:0 50px;color:#4c4c4c;text-align: center;line-height: 22px;
+}
+.current__inner .config__feature-list{width:100%;text-align: center;}
+.current__inner .config__feature-ul{display: block;}
+.current__inner .config__feature-list{margin-top:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*智能推荐*/
+.smartRecommend-parts .list__con .list__con-item {height: 442px;}
+.smartRecommend-parts .list__con-des {padding-left: 59px;margin-bottom: 8px;text-align: left;}
+.smartRecommend-parts .list__con-subtitle {display: block; font-size: 13px; color: #303030;}
+.smartRecommend-parts .list__con .list__con-price {margin-bottom: 5px;font-size: 18px;font-family: "微软雅黑";}
+.rec__tag {display: inline-block; position: absolute; left: 0; top: 12px; padding-left:5px; height: 22px; line-height: 22px; background-color: #79acdb; vertical-align: middle; color: #fff; font-size: 13px;}
+.rec__tag:after {content: "";background: url(../images/carTagBg.png) no-repeat;position: absolute;right: -12px;width: 12px;height: 22px;top: 0;}
+/*热销推荐*/
+.list__swiper {width: 990px; height: 420px; margin: 0 auto;}
+.hotSale-parts .list__con .list__con-item {padding-top: 50px;}
+.list__prev, .list__next {position: absolute;left:-30px;top:50%; margin-top:20px; width:32px;height:32px;background: url(../images/arrowsIcon.png) no-repeat 0 0;cursor: pointer;}
+.list__next{right:-30px; left: auto; background-position: -68px 0;}
+.list__prev.disabled {background-position: 0 -68px;}
+.list__next.disabled {background-position: -68px -68px;}
+/*.hotSale-parts .list__con-title, .hotSale-parts .list__con-price {display: inline-block; margin-bottom: 25px;}
+.hotSale-parts .list__con-title {margin-right: 10px;}*/
+.hotSale-parts .list__con .list__con-btn-wrap {bottom: 20px;}
+.rec__preferred {position: absolute; top: -20px; left:36px;width:160px; height: 77px; background: url(../images/preferredIcon.png) no-repeat; z-index: 1;}
+.rec__percent {position: absolute; top: 22px; left: 10px; line-height: 1em; font-size: 17px; transform: rotate(-15deg); color: #b9d9f6; font-family: HYQHB;}
+.rec__percent em {font-size: 14px;}
+
+
+/*参数配置*/
+.allParameter-parts{
+	width:1180px;margin:0 auto;
+}
+.allParameter-parts .parameterWrap{margin-top:20px;}
+.allParameter-parts .parameter-table{
+	width:100%;
+}
+.allParameter-parts .parameter-table td,.allParameter-parts .parameter-table th{border:1px solid #d4d4d4;padding:12px 20px;text-align: center;}
+.allParameter-parts .parameter-table th{color:#2371bb;font-style: normal;}
+.allParameter-parts .parameter-table tr:nth-of-type(2n){
+background: #f1f6fb;
+}
+
+/*我的车库*/
+.garage--wrap{width:1180px;margin:20px auto; height: 600px;}
+@media screen and (min-width:1200px) and (max-width:1400px){
+	.garage--wrap {height:400px;}
+}
+.garage-parts .garage--list{display: table;width:100%;margin-bottom: 15px;background: #f7f7f7;height:120px;padding:24px 30px;box-sizing:border-box;}
+.garage-parts .garage__carName,.garage-parts .garage__details,.garage-parts .garage__price,.garage-parts .garage__btnWrap{display: table-cell;vertical-align: middle;padding:0 25px;}
+.garage-parts .garage__btnWrap {padding:0 5px;}
+.garage-parts .garage__carName{
+	width:26%;
+}
+.garage-parts .garage__details{width:20%;}
+.garage-parts .carSeries strong{font-size: 24px;color:#2371bb;}
+.garage-parts .car-tag{margin-left: 10px;vertical-align:3px;}
+.garage-parts .carType{font-size: 18px;font-family: "HYQHB";line-height:32px;}
+.garage-parts .warnIcon{
+	padding-left: 18px;color:#c92f2f;font-size: 12px;background: url(../images/warnIcon.png) no-repeat left center;
+}
+.garage-parts .garage__time {display: inline-block; margin-top: 5px;color: #666; font-size: 12px;}
+.garage-parts .garage__price {
+	font-family: "微软雅黑";font-size: 18px;width:20%;
+}
+.garage-parts .garage__btn{
+	float:left;min-width:80px;padding:0 16px;height:36px;line-height: 36px;text-align: center;border:1px solid #2371bb;color:#2371bb;margin-right: 6px;border-radius:3px;font-family:"HYQHB";box-sizing:border-box;
+}
+.garage-parts .garage__btn:last-child {margin-right: 0;}
+.garage-parts .garage__btn--blue{
+	color:#fff;background: #2371bb;
+}
+
+
+
+
+/*操作流程弹框*/
+.oprateExplainBox{position: fixed;top:50%;left:50%;width:1000px;height: 600px;margin-left: -500px;margin-top: -300px;background: #fff;padding:20px 50px 20px 150px;box-sizing:border-box;z-index: 99999;display: none;
+}
+.close_box{
+	position: absolute;top:10px;right:10px;width:34px;height:35px;background: url(../images/closeBox.png) no-repeat;
+}
+.oprateExplainTitle{
+padding:30px 0;text-align: center;font-size: 26px;font-weight: 500;
+}
+.oprateExplainTitle i{display: inline-block;vertical-align: middle;width:8px;height:8px;background: #0080d2;margin:0 6px;}
+.oprateExplainWrap{height:550px;}
+.oprate__step{width:660px;height:100px;background: url(../images/step.jpg) no-repeat;margin-bottom:50px;}
+.explai-list{margin:0 100px 30px 0;}
+.oprateExplainTitle__sub{
+	display: inline-block;padding:0 10px;min-width: 105px;height:36px;line-height: 36px;background:#0080d2;text-align: center;color:#fff;border-radius: 20px;font-size: 18px;font-weight: normal;border-bottom-left-radius: 0;
+}
+.oprateExplainBox p{margin-bottom: 15px;color:#999;line-height: 24px;}
+.oprateExplainBox li b{float: left;font-size: 16px;}
+.oprateExplainBox li p{padding-left: 75px;}
+.oprateExplainBox p.textIndent{text-indent: 2em;margin-bottom: 0;}
+.oprateExplainBox p b{color:#000;font-weight: normal;}
+
+/*配置清单弹框*/
+.lightBox{
+	position: fixed;top:50%;left:50%;width:856px;height:500px;margin-left: -428px;margin-top: -250px;background: #fff;padding:0px 22px 40px 22px;box-sizing:border-box;z-index: 99999;display: none;
+}
+.lightTitle{
+	height:80px;line-height: 80px;text-align: center;border-bottom:1px solid #ededed;font-size: 24px;font-family: "HYQHB";
+}
+.lightBox .close_box{top:22px;right:22px;cursor: pointer;}
+.configListCont{height:370px;margin:20px;}
+.configListBox .config__list{margin:0 40px 0px 0px;}
+.configListBox .config__list h3{font-family: "HYQHB";font-size: 16px;line-height: 42px;}
+.configListBox .config__list label{float: left;line-height: 32px;}
+.configListBox .config__list span{float: right;line-height: 32px;font-family: "微软雅黑";}
+
+/*选配弹窗*/
+.apolegamyBox {width: 856px; height: 412px; margin: -206px 0 0 -428px; padding: 90px 32px 55px 35px;}
+.apolegamyBox .apolegamy__left {float: left; margin-right: 25px;}
+.apolegamyBox .apolegamy__left-img {display: block; width: 385px; height: 215px;}
+.apolegamyBox .apolegamy__right {float: left; width: 379px;}
+.apolegamyBox .apolegamy__right-title {color: #000f17; font-size: 18px;font-family: "HYQHB";}
+.apolegamyBox .apolegamy__right-price {display: block; margin-bottom: 10px;color: #666; font-size: 18px;font-family: "微软雅黑";}
+.apolegamyBox .apolegamy__right-desc {margin-bottom: 20px;color: #4c4c4c; font-size: 13px;}
+.apolegamyBox .config__feature-list {width: 375px;margin-bottom: 30px;}
+.lightBox .btn__true, .lightBox .btn__cancle {display: inline-block; width: 108px; height: 34px; line-height: 34px; color: #2371bb; border: 1px solid #2371bb; border-radius: 5px; text-align: center;font-family: "HYQHB";}
+.lightBox .btn__cancle {margin-left: 20px;color: #4c4c4c; border:1px solid #4c4c4c;}
+
+/*配置变更弹窗*/
+.deployBox {width: 856px; height: 502px; margin: -251px 0 0 -428px; padding: 0;}
+.deployBox .lightTitle {width: 100%; height: 60px; line-height: 60px; color: #fff; background: url(../images/titleBg.jpg) no-repeat; font-size: 24px; text-align: center;}
+.deployBox .close_box {width:32px; height:32px; top: 14px; background: url(../images/closeIcon.png) no-repeat;}
+.deployBox .deploy__con {width: 100%; height: 390px; padding: 5px 56px; box-sizing: border-box;}
+.deployBox .deploy__con-list {margin-bottom: 15px;}
+.deployBox .deploy__con-title {padding:10px 0; color: #000; font-size: 16px; font-family: "HYQHB"; border-bottom: 1px solid #ccc;}
+.deployBox .deploy__con-list__info {padding: 10px 6px;}
+.deployBox .deploy__con-list__info  p {margin-bottom: 4px;}
+.deployBox .deploy__con-last {border-top: 1px solid #ccc;}
+.deployBox .deploy__con-last .deploy__con-title {float: left; border-bottom: 0;}
+.deployBox .deploy__con-price {float:right; color: #000; font-size: 18px;}
+.deployBox .deploy__con-btn {text-align: center;}
+
+/*联系方式弹窗*/
+.contactBox {width: 578px; height: 278px; padding: 40px 60px; margin: -139px 0 0 -289px; box-sizing: border-box;}
+.contactBox .contact__con {padding-top: 30px;}
+.contactBox .contact__con-ul li {position: relative; margin-bottom: 8px; color: #1d1e1f; font-size: 16px;}
+.contactBox .contact__con-ul li.contact__con-address {margin-bottom: 20px;}
+.contactBox .contact__con-label {display: block; width: 100px; position: absolute; left: 0; color: #808080;}
+.contactBox .contact__con-txt {display: block; padding-left: 100px;}
+.contactBox .contact__con__item {margin-bottom: 15px;}
+.contactBox .contact__con__item span {display: inline-block; vertical-align: middle; margin-right: 16px;}
+.contactBox .contact__con-tel {display: inline-block; vertical-align: middle;width: 88px; height: 30px; line-height: 30px; text-align: center; color: #2371bb; border-radius: 5px; border:1px solid #2371bb; box-sizing: border-box;}
+.contactBox .tel__icon {display: inline-block; vertical-align: middle; width: 14px; height: 18px; margin-right: 5px; background: url(../images/telIcon1.png) no-repeat;}
+.contactBox.otherBox {width: 420px; height: 200px; margin: -100px 0 0 -210px;}
+.contactBox.otherBox .contact__con {text-align: center; }
+.contactBox.otherBox .tel-num {display:block; margin-bottom:18px; color: #1d1e1f; font-size: 24px; text-align: center; font-family: "HYQHB"; }
+.contactBox.otherBox .contact__con-tel {width: 90px; margin: 0 auto;}
+
+/*五维度说明弹框*/
+.scorePartsBox{
+	width:580px;height:286px;margin-left: -290px;margin-top: -143px;background: #fff;
+}
+.scorePartsBox .oprateExplainTitle{color:#2471b9;font-size: 20px;padding:30px 0 10px 0;}
+.scorePartsBox .scoreExplainUL{padding-left: 114px;}
+.scorePartsBox li i{
+	float: left;margin-top:6px;;width:20px;height:26px;margin-right: 10px;background: url(../images/stepIcon.png) no-repeat;
+}
+.scorePartsBox li i.step1{background-position: 0 0;}
+.scorePartsBox li i.step2{background-position: -30px 0;}
+.scorePartsBox li i.step3{background-position: -60px 0;}
+.scorePartsBox li i.step4{background-position:-90px 0;}
+.scorePartsBox li>span{float: left;width: 300px;font-size: 16px;height:44px;line-height: 44px;border-bottom: 1px dashed #d7d7d7;}
+.scorePartsBox li:last-child>span{border:0;}
+.scorePartsBox li b{font-family: "HYQHB";font-weight: normal;}
+
+
+.configCar-parts,.confirmConfig-parts,.compare-parts,.interact__question,.hotSale-parts,.carDetails-parts,.sudoku-parts,.score-parts,.smartRecommend-parts,.garage-parts,.current-parts,.allParameter-parts,.current-index-parts{display: none;}
+
+
+
+/*0712新增*/
+.hostsaleBox1 {width: 880px;height: 450px;background: none;}
+.hostsaleBox1 .hostsaleboxindex{background: url(../images/hostback_bck.png) no-repeat center;width: 860px;height: 430px;}
+.hostsaleBox1 .close_box{top: 75px;right: 15px;}
+.hostsaleBox1 .hostsaleUl li{float: left;margin-bottom: 30px;margin-left: 12px;}
+.hostsaleBox1 .hostsaleUl{padding-top: 170px;width: 800px;margin: auto;}
+.hostsaleBox1 .hostsaleUl li a{display: inline-block;width: 145px;height: 45px;line-height: 45px;text-align: center;background: #5583ae;color: #fff;border-radius:5px;}
+.hostsaleBox1 .hostbox_intro{width: 100%;text-align: center;display: inline-block;padding-top: 33px;color: #2371bb;}

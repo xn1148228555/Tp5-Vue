@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-07-16T11:32:04+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+---------------------------------------------------------------
+[ 2018-07-16T11:32:16+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:32:17+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:32:17+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:32:17+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:33:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:33:16+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::return()
+---------------------------------------------------------------
+[ 2018-07-16T11:33:36+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-16T11:33:52+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-16T11:33:54+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [0]variable type error： array

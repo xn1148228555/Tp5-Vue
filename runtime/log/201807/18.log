@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2018-07-18T19:30:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:30:37+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:30:37+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:30:38+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:31:11+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:31:11+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:31:11+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:31:12+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-18T19:31:19+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/index/Index/index
+[ error ] [1]Call to undefined method app\index\controller\Index::display()

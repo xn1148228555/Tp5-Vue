@@ -1,0 +1,2295 @@
+---------------------------------------------------------------
+[ 2018-07-20T10:41:37+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Call to undefined method app\index\controller\Index::display()
+---------------------------------------------------------------
+[ 2018-07-20T10:42:33+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: arr
+---------------------------------------------------------------
+[ 2018-07-20T10:42:35+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: arr
+---------------------------------------------------------------
+[ 2018-07-20T10:42:55+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: arr
+---------------------------------------------------------------
+[ 2018-07-20T10:43:08+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '}'
+---------------------------------------------------------------
+[ 2018-07-20T10:43:13+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: arr
+---------------------------------------------------------------
+[ 2018-07-20T10:43:32+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Cannot access empty property
+---------------------------------------------------------------
+[ 2018-07-20T10:43:34+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Cannot access empty property
+---------------------------------------------------------------
+[ 2018-07-20T10:44:13+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [1]Access to undeclared static property: app\index\controller\Index::$arr
+---------------------------------------------------------------
+[ 2018-07-20T11:35:40+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '&'
+---------------------------------------------------------------
+[ 2018-07-20T11:35:41+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '&'
+---------------------------------------------------------------
+[ 2018-07-20T11:36:04+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '&'
+---------------------------------------------------------------
+[ 2018-07-20T11:36:06+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '&'
+---------------------------------------------------------------
+[ 2018-07-20T11:37:07+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [4]语法错误: unexpected '&&' (T_BOOLEAN_AND)
+---------------------------------------------------------------
+[ 2018-07-20T11:50:02+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T11:54:53+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T11:55:21+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T12:02:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T12:02:34+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T12:05:59+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ error ] [8]未定义变量: s
+---------------------------------------------------------------
+[ 2018-07-20T12:23:54+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ info ] localhost/Thinkphp5-api/public/ [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,081.50kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Thinkphp5-api/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: s[D:\www\Thinkphp5-api\application\index\controller\Index.php:16]
+---------------------------------------------------------------
+[ 2018-07-20T12:24:23+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ info ] localhost/Thinkphp5-api/public/ [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,048.84kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Thinkphp5-api/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T12:24:40+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/
+[ info ] localhost/Thinkphp5-api/public/ [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,048.58kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Thinkphp5-api/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T12:27:08+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,067.66kb] [文件加载：35]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T12:27:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,068.05kb] [文件加载：35]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T12:27:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,068.05kb] [文件加载：35]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T12:27:30+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：1,068.05kb] [文件加载：35]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T12:27:39+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：1,084.28kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access parent:: when current class scope has no parent[D:\www\Thinkphp5-api\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2018-07-20T13:05:51+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,084.52kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot access parent:: when current class scope has no parent[D:\www\Thinkphp5-api\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2018-07-20T13:06:10+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,048.16kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:13+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?d=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?d=1 [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：1,067.76kb] [文件加载：35]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'd' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T13:06:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：1,047.75kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:19+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:24+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:25+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:35+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:06:45+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:07:20+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:07:59+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=1
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=1 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,047.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:08:03+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：1,047.77kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:08:20+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,047.98kb] [文件加载：33]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:08:45+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,055.20kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:08:47+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,055.20kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:09:19+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,090.31kb] [文件加载：36]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[D:\www\Thinkphp5-api\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2018-07-20T13:09:34+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,055.53kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:09:36+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：1,055.39kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:09:39+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：1,055.39kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:09:48+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：1,055.39kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:59:25+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,055.55kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T13:59:27+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,055.49kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:02:10+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,090.02kb] [文件加载：36]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\www\Thinkphp5-api\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T14:03:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：1,055.64kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:51:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,055.55kb] [文件加载：34]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:52:50+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,264.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\www\Thinkphp5-api\public/../application/index\view\index\index.html[D:\www\Thinkphp5-api\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-07-20T14:53:14+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：1,264.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\www\Thinkphp5-api\public/../application/index\view\index\index.html[D:\www\Thinkphp5-api\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-07-20T14:53:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,264.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\www\Thinkphp5-api\public/../application/index\view\index\index.html[D:\www\Thinkphp5-api\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-07-20T14:53:38+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：1,352.05kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:53:40+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,240.19kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:53:56+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,264.27kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\www\Thinkphp5-api\public/../application/index\view\index\index.html[D:\www\Thinkphp5-api\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-07-20T14:54:57+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,240.19kb] [文件加载：39]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:55:51+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,386.05kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: arr[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T14:56:19+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,090.08kb] [文件加载：36]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ')'[D:\www\Thinkphp5-api\application\index\controller\Index.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T14:56:27+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,084.84kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\www\Thinkphp5-api\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2018-07-20T14:56:28+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：1,084.84kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\www\Thinkphp5-api\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2018-07-20T14:57:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.014000s][吞吐率：71.43req/s] [内存消耗：1,083.96kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Controller' not found[D:\www\Thinkphp5-api\application\index\controller\Index.php:4]
+---------------------------------------------------------------
+[ 2018-07-20T14:57:29+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,083.95kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\think\Controller' not found[D:\www\Thinkphp5-api\application\index\controller\Index.php:4]
+---------------------------------------------------------------
+[ 2018-07-20T14:57:51+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,083.76kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Controller' not found[D:\www\Thinkphp5-api\application\index\controller\Index.php:4]
+---------------------------------------------------------------
+[ 2018-07-20T14:58:04+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,084.65kb] [文件加载：37]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\www\Thinkphp5-api\application\index\controller\Index.php:8]
+---------------------------------------------------------------
+[ 2018-07-20T14:58:59+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,282.24kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T14:59:12+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,394.28kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:17:56+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,630.21kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:18:06+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,090.44kb] [文件加载：36]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\www\Thinkphp5-api\application\index\controller\Index.php:11]
+---------------------------------------------------------------
+[ 2018-07-20T15:18:10+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,663.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T15:18:25+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,663.36kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T15:18:30+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,630.14kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:21:11+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?e=asdasdasdasd [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,630.02kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'e' => 'asdasdasdasd',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:21:15+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?ids=asdasdasdasd
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?ids=asdasdasdasd [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,288.23kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 'asdasdasdasd',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T15:21:18+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?ids=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?ids=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,288.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:e[D:\www\Thinkphp5-api\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-07-20T15:21:23+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?ids=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?ids=123 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,663.33kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T15:21:32+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?ids=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?ids=123 [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,315.67kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T15:21:55+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,090.00kb] [文件加载：36]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\www\Thinkphp5-api\application\index\controller\Index.php:11]
+---------------------------------------------------------------
+[ 2018-07-20T15:22:00+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,304.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'Request' not found[D:\www\Thinkphp5-api\application\index\controller\Index.php:11]
+---------------------------------------------------------------
+[ 2018-07-20T15:22:48+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,282.66kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:22:53+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,315.77kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Array to string conversion[D:\www\Thinkphp5-api\runtime\temp\2fda2f4d04bf9f886d7ad598de5a289b.php:9]
+---------------------------------------------------------------
+[ 2018-07-20T15:23:33+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,394.07kb] [文件加载：43]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:23:35+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,281.92kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T15:23:42+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,281.92kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:01:26+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,281.92kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:01:26+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,281.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:01:27+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,281.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:01:27+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,281.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:01:27+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,281.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T16:03:09+08:00 ] 0.0.0.0 GET /Thinkphp5-api/public/index.php/Index/index?id=123
+[ info ] localhost/Thinkphp5-api/public/index.php/Index/index?id=123 [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,281.99kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\Thinkphp5-api\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=aldkqhaqdk6o7lbkaqsj6t9an6; _ccfivd=1531997476370; customer_access_token=bearer d4e5911d8bbc11e8959002420a001106',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\Thinkphp5-api\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\Thinkphp5-api\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,29 @@
+<!--<script src="../../../../../G10/Public/Pc/lib/allRoutes.js">-->
+<!--</script>-->
+{include file="../application/index/view/Mobile/header.html" /}
+<div class="" id="projectApp">
+    <!--header-start-->
+    <header-component></header-component>
+    <!--header-end-->
+    <keep-alive>
+        <router-view></router-view>
+    </keep-alive>
+
+</div>
+<script>
+    var projectApp;
+    require(['vue','vueRouter','allRoutes','projectAppVue','text'],function(Vue,VueRouter,allRoutes,projectAppVue,text){
+        //必须
+        Vue.use(VueRouter);
+        allRoutes.push( {path: '/', redirect: 'home'});//首页入口
+        var router = new VueRouter({
+            routes: allRoutes //
+        })
+
+        projectAppVue['router'] =router;
+        window.route = router;
+        projectApp = new Vue(projectAppVue).$mount('#projectApp');
+    });
+</script>
+
+{include file="../application/index/view/Mobile/foot.html" /}
